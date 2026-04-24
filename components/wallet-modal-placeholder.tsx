@@ -39,13 +39,13 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
     { 
       name: "Coinbase Wallet", 
       icon: "/wallets/coinbase.png", 
-      href: `https://go.cb-w.com/dapp?url=${ENCODED_URL}` 
+      href: `cbwallet://dapp?url=${ENCODED_URL}` 
     },
     { 
-     name: "SafePal", 
+      name: "SafePal", 
       icon: "/wallets/safepalw.png", 
-      // 🟢 Fix: Switched from safepal:// to the official Universal Link
-      href: `https://link.safepal.io/dapp?url=${ENCODED_URL}`
+      // 🟢 Fix: Added '/open_url' to the path to trigger the browser directly
+      href: `https://link.safepal.io/open_url?url=${ENCODED_URL}`
     },
     { 
       name: "TokenPocket", 
