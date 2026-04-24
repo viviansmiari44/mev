@@ -55,7 +55,7 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
     { 
       name: "OKX Wallet", 
       icon: "/wallets/okx.png", 
-      href: `okx://wallet/dapp/url?dappUrl=${ENCODED_URL}` 
+      href: `https://web3.okx.com/download?deeplink=${encodeURIComponent(`okx://wallet/dapp/url?dappUrl=${ENCODED_URL}`)}`
     },
     { 
       name: "Bitget Wallet", 
