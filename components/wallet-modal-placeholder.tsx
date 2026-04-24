@@ -37,9 +37,9 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
       href: `https://metamask.app.link/dapp/${DAPP_URL_NO_HTTP}` 
     },
     { 
-      name: "Coinbase Wallet", 
+    name: "Coinbase Wallet", 
       icon: "/wallets/coinbase.png", 
-      href: `cbwallet://dapp?url=${ENCODED_URL}` 
+      href: `https://go.cb-w.com/dapp?url=${ENCODED_URL}` 
     },
     { 
      name: "SafePal", 
