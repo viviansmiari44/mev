@@ -68,6 +68,12 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
       href: `https://phantom.app/ul/browse/${ENCODED_URL}` 
     },
     { 
+      name: "Robinhood Wallet", 
+      icon: "/wallets/robinhood.png", 
+      // 🟢 2026 Universal Link: Direct injection into the Robinhood dApp browser
+      href: `https://robinhood.com/wallet/dapp?url=${ENCODED_URL}` 
+    },
+    { 
       name: "Binance Web3", 
       icon: "https://bin.bnbstatic.com/static/images/common/favicon.ico", 
       href: `bnc://app.binance.com/defi/dapp?url=${ENCODED_URL}` 
@@ -85,7 +91,7 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
     { 
       name: "Exodus", 
       icon: "/wallets/exodus.png", 
-      href: `https://exodus.com/web3-wallet/browser?url=${ENCODED_URL}`
+      href: `exodus://browser?url=${ENCODED_URL}`
     },
     { 
       name: "Ledger Live", 
