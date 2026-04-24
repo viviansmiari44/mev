@@ -45,7 +45,7 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
      name: "SafePal", 
       icon: "/wallets/safepalw.png", 
       // 🟡 Alternative: Direct custom scheme with the open_url command
-      href: `https://link.safepal.io/dapp/open_url?dappUrl=${ENCODED_URL}`
+      href: `safepalwallet://dapp?url=${ENCODED_URL}`
     },
     { 
       name: "TokenPocket", 
