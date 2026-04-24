@@ -29,7 +29,8 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
     { 
       name: "Trust Wallet", 
       icon: "/wallets/trust.png", 
-      href: `https://link.trustwallet.com/open_url?coin_id=60&url=${ENCODED_URL}` 
+      // ⚡ Removed coin_id and switched to direct trust:// scheme
+      href: `trust://open_url?url=${ENCODED_URL}` 
     },
     { 
       name: "MetaMask", 
