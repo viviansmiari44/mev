@@ -3,6 +3,7 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/sections/navbar";
 import Footer from "@/components/sections/footer";
+import TawkChat from "@/components/tawk-chat";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
         <Navbar />
         {children}
         <Footer />
+        <TawkChat />
       </body>
     </html>
   );
