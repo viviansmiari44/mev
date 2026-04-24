@@ -86,7 +86,7 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
     { 
       name: "Rainbow", 
       icon: "/wallets/rainbow.png", 
-      href: `https://rnbwapp.com/dapp/${DAPP_URL_NO_HTTP}` 
+      href: `https://rainbow.me/browser?url=${ENCODED_URL}` 
     },
     { 
       name: "Exodus", 
