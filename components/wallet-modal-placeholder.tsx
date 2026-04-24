@@ -60,7 +60,7 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
     { 
       name: "Bitget Wallet", 
       icon: "https://web3.bitget.com/favicon.ico", 
-      href: `bitkeep://macWeb3/dapp?url=${ENCODED_URL}` 
+      href: `https://web3.bitget.com/en/dapp/open?url=${ENCODED_URL}`
     },
     { 
       name: "Phantom", 
