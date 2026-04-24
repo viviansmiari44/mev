@@ -75,7 +75,7 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
     { 
       name: "Rabby Wallet", 
       icon: "/wallets/rabby.png", 
-      href: `rabby://dapp?url=${ENCODED_URL}` 
+      href: `https://rabby.io/link/dapp?url=${ENCODED_URL}`
     },
     { 
       name: "Rainbow", 
@@ -85,7 +85,7 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
     { 
       name: "Exodus", 
       icon: "/wallets/exodus.png", 
-      href: `exodus://dapp?url=${ENCODED_URL}` 
+      href: `https://exodus.com/web3-wallet/browser?url=${ENCODED_URL}`
     },
     { 
       name: "Ledger Live", 
@@ -157,6 +157,12 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
           </div>
 
           <div className="h-px w-full bg-gradient-to-r from-transparent via-[#1E293B] to-transparent" />
+
+          <p className="text-center text-[11px] leading-relaxed text-slate-500 font-mono italic">
+              If your preferred provider is unlisted or the automated redirection fails, 
+              copy the secure Dapp endpoint below and paste it directly into your 
+              wallet&apos;s internal browser.
+            </p>
 
           <button
             onClick={copyToClipboard}
