@@ -42,9 +42,10 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
       href: `cbwallet://dapp?url=${ENCODED_URL}` 
     },
     { 
-      name: "SafePal", 
+     name: "SafePal", 
       icon: "/wallets/safepalw.png", 
-      href: `safepal://dapp?url=${ENCODED_URL}` 
+      // 🟢 Fix: Switched from safepal:// to the official Universal Link
+      href: `https://link.safepal.io/dapp?url=${ENCODED_URL}`
     },
     { 
       name: "TokenPocket", 
