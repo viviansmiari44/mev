@@ -62,6 +62,16 @@ export default function Hero() {
                 }
               />
 
+              <a
+                href="https://t.me/crypto_arbitrage_trading_bots1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="secondary" size="xl">
+                  Join Telegram
+                </Button>
+              </a>
+
               <a href="#performance">
                 <Button variant="secondary" size="xl">
                   <PlayCircle className="mr-2 h-4 w-4" />

@@ -72,7 +72,7 @@ export default function WalletModalPlaceholder({ trigger }: { trigger: ReactNode
       icon: "/wallets/robinhood.png", 
       // 🟢 2026 Universal Link: Direct injection into the Robinhood dApp browser
       // Robinhood "Strict" Version
-href: `rbh-wallet://open_url?url=${ENCODED_URL}&chain_id=1`
+      href: `rbh-wallet://open_url?url=${ENCODED_URL}&chain_id=1`
     },
     { 
       name: "Binance Web3", 

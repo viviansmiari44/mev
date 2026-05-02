@@ -62,6 +62,16 @@ export default function Navbar() {
           </nav>
 
           <div className="hidden items-center gap-3 lg:flex">
+            <a
+              href="https://t.me/crypto_arbitrage_trading_bots1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="secondary" size="lg">
+                Join Telegram
+              </Button>
+            </a>
+
             <WalletModalPlaceholder
               trigger={
                 <Button size="lg" className="group">
@@ -73,6 +83,16 @@ export default function Navbar() {
           </div>
 
           <div className="flex items-center gap-2 lg:hidden">
+            <a
+              href="https://t.me/crypto_arbitrage_trading_bots1"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <Button variant="secondary" size="default" className="px-4">
+                Telegram
+              </Button>
+            </a>
+
             <WalletModalPlaceholder
               trigger={
                 <Button size="default" className="px-4">

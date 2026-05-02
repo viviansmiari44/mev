@@ -21,6 +21,17 @@ export default function Cta() {
 
             <div className="mt-8 flex flex-col items-center justify-center gap-4 sm:flex-row">
               <WalletModalPlaceholder trigger={<Button size="xl">Get Started</Button>} />
+
+              <a
+                href="https://t.me/crypto_arbitrage_trading_bots1"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="secondary" size="xl">
+                  Join Telegram
+                </Button>
+              </a>
+
               <a href="#performance">
                 <Button variant="secondary" size="xl">
                   View Performance
